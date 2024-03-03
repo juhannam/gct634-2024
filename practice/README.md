@@ -19,7 +19,7 @@ We will use Python throughout the course. For practice session and homework, we 
 3. (Tip #2) If you encounter the error message '/usr/lib/liblapack.3.dylib' (no such file, not in dyld cache), type the following commands:
 
 ```
-    conda install -c conda-forge librosa (Install Librosa)
+    conda install -c conda-forge librosa (install Librosa)
     conda install lapack 
     conda install scipy
 ```
