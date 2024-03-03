@@ -10,21 +10,29 @@ We will use Python throughout the course. For practice session and homework, we 
 
 2. (Tip #1) If you encounter the error message 'No module named pip', type the following commands:
 
-    conda activate FMP (activate the FMP environment)
-    python -m ensurepip (install pip in the FMP environment)
-    conda env update -f environment.yml (continue to install the FMP environment)
+```
+    conda activate FMP (activate the FMP environment)  
+    python -m ensurepip (install pip in the FMP environment)  
+    conda env update -f environment.yml (continue to install the FMP environment)  
+```
 
 3. (Tip #2) If you encounter the error message '/usr/lib/liblapack.3.dylib' (no such file, not in dyld cache), type the following commands:
 
+```
     conda install -c conda-forge librosa (Install Librosa)
     conda install lapack 
     conda install scipy
+```
 
 4. Run Jupyter Notebook 
 
+```
    jupyter notebook 	
+```
 
 5. To deactivate the active environment, use
     
+```
    conda deactivate
+```
 
