@@ -43,7 +43,7 @@ Now it is your turn. You should improve the baseline code by developing your own
 * Codebook-based feature summarization.
 * Try different classifiers: k-NN, SVM with nonlinear kernels, MLP, GMM, ...
 
-## Part 2: Music Auto-Tagging with Deep Learning (Will be released by March 17)
+## Part 2: Music Tagging with Deep Learning (will be released by March 17)
 
 
 
