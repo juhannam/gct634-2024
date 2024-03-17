@@ -68,7 +68,9 @@ The model configuraiton and startup code are given in the Jupyter Notebook file.
 Now it is your turn. You can improve the model performance with your own idea. There are many ways to improve it. The followings are possible ideas: 
 
 * You can try different optimizers or learning rate on the 1D or 2D CNN model above.
+
 * You can build a different configuration of CNN models, referring to existing CNN models (https://github.com/minzwon/sota-music-tagging-models). We recommend you to reproduce "Short-Chunk CNN" which is known to be simple but effective.
+
 * You can optionally augment data using digital audio effects. For more detail, see this tutorial (https://music-classification.github.io/tutorial/part3_supervised/data-augmentation.html)
 
 
