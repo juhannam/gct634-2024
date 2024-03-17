@@ -43,7 +43,9 @@ Now it is your turn. You should improve the baseline code by developing your own
 * Codebook-based feature summarization.
 * Try different classifiers: k-NN, SVM with nonlinear kernels, MLP, GMM, ...
 
-## Part 2: Music Tagging with Deep Learning (will be released by March 17)
+
+
+## Part 2: Music Tagging with Deep Learning 
 Music tagging is an important task that can be used in many musical applications such as music search or recommender systems. The goals of homework part 2 are follows: 
 
 * Experiencing the whole pipeline of deep learning based system: data preparation, feature extraction, model training and evaluation
