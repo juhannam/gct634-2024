@@ -8,7 +8,7 @@ Automatic music transcription (AMT) refers to an automated process that converts
 
 
 ## Dataset
-We use a subset of the MAESTRO dataset that contains 170 performance pieces played by junior pianists [link](https://drive.google.com/file/d/1EQ6fFJRhAEugkkCwG2YvmXJyL7Q3Xhes/view?usp=sharing). The audio files and their corresponding midi files are paired for each piece. We will convert the midi files into piano rolls and train our network to predict them from the audio in a supervised way. We randomly selected 100 / 20 / 50 (train / valid / test) performances from the original dataset for this homework.
+We use [a subset of the MAESTRO dataset](https://drive.google.com/file/d/1EQ6fFJRhAEugkkCwG2YvmXJyL7Q3Xhes/view?usp=sharing) that contains 170 performance pieces played by junior pianists. The audio files and their corresponding midi files are paired for each piece. We will convert the midi files into piano rolls and train our network to predict them from the audio in a supervised way. We randomly selected 100 / 20 / 50 (train / valid / test) performances from the original dataset for this homework.
 
 ## Baseline: a Simplified Onsets and Frames Model 
 We provide a Python notebook file [GCT634-HW2.ipynb](https://colab.research.google.com/drive/1vSghObmGDNRq9yHHNn9vZEaSiawOEjCY?usp=sharing) which includes all components for data preparation, building, training, and evaluting a baseline model. The baseline model is a simplifed onsets and frames model where two independent CNN stacks are used for onset and frame predictions, respectively. You can train and evalute the model by simply executing the cells one by one in the Python notebook file. 
