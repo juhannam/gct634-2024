@@ -1,4 +1,4 @@
-# Homework #2: Piano Transcription 
+# Homework #2: Polyphonic Piano Transcription 
 
 Automatic music transcription (AMT) refers to an automated process that converts musical signals into music scores. Polyphonic piano transcription is a specific AMT task for piano music. In this homework, you will implement a small version of ``Onsets and Frames'', a state-of-the-art piano transcription model with the following goals
 
