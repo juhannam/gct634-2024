@@ -2,9 +2,9 @@
 
 Automatic music transcription (AMT) refers to an automated process that converts musical signals into music scores. Polyphonic piano transcription is a specific AMT task for piano music. In this homework, you will implement a small version of ``Onsets and Frames'', a state-of-the-art piano transcription model with the following goals
 
-* Experiencing the pipeline of training and evaluate a deep learning model for piano music transcription (audio-to-MIDI). 
+* Experiencing the pipeline of training and evaluate a deep learning model for piano music transcription (audio-to-MIDI)
 * Building a convolutional recurrent neural network to predict a sequential output (piano-roll style) 
-* Learning to handle MIDI files.
+* Learning to handle MIDI files
 
 
 ## Dataset
