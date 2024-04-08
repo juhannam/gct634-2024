@@ -52,7 +52,7 @@ class ConvStack(nn.Module):
         x = self.fc(x)
         return x
 ```
-Write a detailed description of the baseline model by answering the following questions:
+Write a detailed description of the baseline model including your answers to the following questions (but not limited to them):
 - Why the max-pooling is set to (1,2)? 
 - What are the dimensions of the cnn output (x = self.cnn(x)) 
 - Why x = mel.unsqueeze(1) ?
