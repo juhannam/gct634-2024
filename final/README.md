@@ -50,5 +50,5 @@ Each team introduces the project topic in the classroom (10 minute long). It is 
 - May 13 (Mon) - May 21 (Tue): Meeting with Professor
 - May 27 (Mon), May 29 (Wed): Project proposal presentation
 - Jun 12 (Wed): Final presentation
-- Jun 16 (Sun): Final report 
+- Jun 16 (Sun): Final report due
 
