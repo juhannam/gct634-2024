@@ -69,10 +69,11 @@ Note that the continuation result of the baseline code is not so good. Don't be 
 ## Question 4: Improve the result (5pts + extra pts)
 Now, you can use improve the quality of music generation in your own way. The followings are possible ideas that you can try: 
 
-- Search better hyperparameters (RNN configuration, optimizers) 
-- Use more MIDI files [Saarland Music Data](https://resources.mpi-inf.mpg.de/SMD/SMD_MIDI-Audio-Piano-Music.html). You can simple upload MIDI files into the "gct634-SMD-MIDI" folder 
+- Find an appropriate value of tau
+- Search better hyperparameters (RNN configuration, optimizers, etc.) 
+- Use more MIDI files [Saarland Music Data](https://resources.mpi-inf.mpg.de/SMD/SMD_MIDI-Audio-Piano-Music.html). You can simple upload MIDI files into the "gct634-SMD-MIDI" folder. You can also overfit your model to a different piece of single MIDI (say, Chopin Op 28-4) 
 - Use MIDI data augmentation techniques such as transpose or tempo change  
-- Use different random sampling methods such as Top-K, Top-p sampling
+- Implement different random sampling methods such as Top-K, Top-p sampling
 - Renovate the MIDI-like tokenization, particularly to address the bad note duration estimation  
 - Find bugs in the baseline code :)
 
