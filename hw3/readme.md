@@ -55,7 +55,7 @@ Try different values of tau (for example, tau = 0.1, 0.5, 0.8, 1.0, 1.2, 1,5, 2,
 ## Question 3: Implement the primed generation (3pts)
 You can use a primer to continute the music generation from the given piece of music. Implement the primed music generation by filling in the following code. 
 ```
-def test_primer(self, prime, sequence, tau):
+def test_primer(self, primer, sequence, tau):
     # TO DO: implement the primed generation
 
     with torch.no_grad():
@@ -64,7 +64,6 @@ def test_primer(self, prime, sequence, tau):
 
         return preds
 ```
-Note that the continuation result of the baseline code is not so good. Don't be disappointed with it.  
 
 ## Question 4: Improve the result (5pts + extra pts)
 Now, you can use improve the quality of music generation in your own way. The followings are possible ideas that you can try: 
@@ -75,5 +74,3 @@ Now, you can use improve the quality of music generation in your own way. The fo
 - Use MIDI data augmentation techniques such as transpose or tempo change  
 - Implement different random sampling methods such as Top-K, Top-p sampling
 - Renovate the MIDI-like tokenization, particularly to address the bad note duration estimation  
-- Find bugs in the baseline code :)
-
